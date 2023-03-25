@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapi.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+
+/* font-family: 'Source Sans Pro'. sans-serif */
+
+.title {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 35px;
+    font-family: monospace;
+}
+
+.products {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+}
+
+.products {
+    border-radius: 15px;
+    width: 850px;
+    height: 850px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.product img {
+    float: left;
+    border: 0.5px solid black;
+    width: 45%;
+    margin: 1.50%;
+    border-radius: 3px;
+}
+
+.product img {
+    width: calc(100% - (20px * 2));
+    margin: 20px;
+}
+
+.product .description {
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.product:hover {
+    transition: 0.3s ease-in;
+    cursor: pointer;
+}
+
+.addToCartBttn {
+    background-color: transparent;
+    border: 2px solid #060606;
+    font-family: monospace;
+    min-width: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+}
+
+.addToCartBttn:hover {
+    background-color: grey;
+    color: aliceblue;
+    cursor: pointer;
+}

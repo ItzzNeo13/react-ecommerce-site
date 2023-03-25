@@ -1,0 +1,29 @@
+/* Importing fonts */
+@import url('https://fonts.googleapis.com/css2>?family=Poppins:wght@300&display=swap');
+
+.navbar {
+    width: 100%;
+    height: 69px;
+    background-color: #121212;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.links {
+    font-family: 'Poppins', sans-serif;
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.links a {
+    text-decoration: none;
+    color: antiquewhite;
+    margin-left: 25px;
+    font-size: 25px;
+}
+
+.links a:hover {
+    color: silver;
+}
