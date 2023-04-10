@@ -5,7 +5,7 @@
 
 # About Project:
 
-This is my first react project made to test out the framework. I will use the concepts I learnt while making this project to make a "Twitter type website" which will linked here as soon as it is ready.
+This is my first react project made to test out the framework.
 
 It was a fun project to make. I used [this](https://youtu.be/tEMrD9t85v4) tutorial to make the development process simple.
 
